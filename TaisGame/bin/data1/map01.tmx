@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="8" tileheight="8">
+ <tileset firstgid="1" name="tiles" tilewidth="8" tileheight="8">
+  <image source="tiles.png" width="128" height="8"/>
+ </tileset>
+ <layer name="map" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2ulOxCAUBtDqaFziMu//tE4TJ4EEaKF0mfSc5P5rq+EDKbdeh2G4HrjOpufYfdzqK1PPjdefTc88fgo/573x+rOZO1/nzPvS+L4k7v0sXC+P8njmhPO+5f6p557N0jzCeV+a77Xk0Xd+LyUPeRzB0jzebvX7X98dfy952M+PoGcer0P9OgnXV1iXQR5L82h5Tup+/ZJ4ftfUZZBHT7V9qDlVcw6RR6y2D9WbPGKp9dDznD1FHrGp9ZB7/ylVzfuVPGJz+t61+0nt/pF6/pm/f0zlseZ+svbzH83eeYz94S33q6PLnavv+8Z4vjB/txO+X4XzdK3vGpTt3Wcf12HPvvCj2zsP+3msNo/SeaRlno95pPpm977YU6ZCuWtS1/d6Xu7epWrzSP2fyJJ9Zq/zYM1YrjX2Kam+7pZ/z53PY/qJx5Iag5bvIK2V+n4ij+MWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+/gDST4dqg==
+  </data>
+ </layer>
+ <objectgroup name="objects" width="100" height="100">
+  <object type="dispenser" x="37" y="37" width="13" height="14">
+   <properties>
+    <property name="maxvx" value="250"/>
+    <property name="maxvy" value="20"/>
+    <property name="minvx" value="120"/>
+    <property name="minvy" value="-50"/>
+    <property name="quantity" value="0.05"/>
+   </properties>
+  </object>
+  <object type="elevator" x="195" y="105" width="14" height="93"/>
+  <object type="crate" x="184" y="79" width="47" height="35"/>
+  <object type="crate" x="269" y="30" width="14" height="13"/>
+  <object type="crate" x="108" y="170"/>
+  <object type="crate" x="126" y="155"/>
+  <object type="crate" x="128" y="177"/>
+  <object type="crate" x="142" y="164"/>
+  <object type="crate" x="99" y="119"/>
+  <object type="player" x="18" y="140" width="10" height="11"/>
+  <object type="pusher" x="109" y="212" width="72" height="6"/>
+  <object type="crate" x="183" y="40" width="42" height="29"/>
+ </objectgroup>
+</map>
